@@ -1,3 +1,32 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  stroke(255,0,0);
+  strokeWeight(2)
+
+  
+  //Head
+  noFill()
+  rect(200,100,50,50)
+  
+  
+  //Eye
+  fill(0,0,255)
+  ellipse(213,110,15,15)//Left
+  ellipse(238,110,15,15)//Right
+  point(213,110)// Left Iris
+  point(238,110)//Right Iris
+  
+  
+  //Antennas
+  line(200,100,200,50)//Left
+  line(250,100,250,50)//Right
+  
+  text("lll",221,130)
+}
 <body>
     <div id="code" class="container-fluid">
         <script src="https://gist-it.appspot.com/github/alanl0100/p5js/blob/master/zoog.html?footer=0"></script>
